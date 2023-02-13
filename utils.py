@@ -6,7 +6,7 @@ import seaborn as sns
 import pickle
 
 
-DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MSc Project/'
+DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MRI Project/'
 
 def get_model_results(model):
   output_with_augmentation_NOAUGMETRICS=None
