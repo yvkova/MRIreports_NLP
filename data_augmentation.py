@@ -7,7 +7,7 @@ import nlpaug.augmenter.sentence as nas
 import nlpaug.flow as nafc
 from nlpaug.util import Action
 
-DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MSc Project/'
+DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MRI Project/'
 
 class TextAugmentationNlPaug:
 
