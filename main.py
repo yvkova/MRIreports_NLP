@@ -1,5 +1,3 @@
-# The code was inspired by https://github.com/Stveshawn/contextual_topic_identification/blob/master/
-
 from preprocess import *
 from vec_embeddings import VecEmbeddings
 from usl_model import USLModel
