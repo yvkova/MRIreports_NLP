@@ -1,4 +1,8 @@
 # MRIreports_NLP
+This study tests several embedding and clustering methods for classifying free-text reports on magnetic resonance imaging (MRI) scans of the brain of patients examined for vestibular schwannomas in unsupervised manner. With two clusters, the purpose to see the persformance of the tested methods in classying the reports into those mentioning a tumour (positive class) and not (negative class). With three cluster, the purpose was to see if the approach can allow discovering incidental findings and errors.
+
+The discription and results of the study are summarised in the MRIreports_NLP.pdf
+
 
 ## Getting started
 
@@ -31,5 +35,5 @@ Helper classes:
 - data_augmentation.py: contains the code to perform data augmentation on the original dataset.
 - pca.py: utility class for dimensionality reduction (pca).
 - utils.py: helper functions such as read().
-- autoencoder: utility class for autoencoder logic.
+- autoencoder.py: utility class for autoencoder logic.
 - eda.py: contains the code essential for the EDA conducted in the study.
