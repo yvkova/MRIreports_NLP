@@ -1,7 +1,7 @@
 # MRIreports_NLP
-This study tests several embedding and clustering methods for classifying free-text reports on magnetic resonance imaging (MRI) scans of the brain of patients examined for vestibular schwannomas in unsupervised manner. With two clusters, the purpose to see the persformance of the tested methods in classying the reports into those mentioning a tumour (positive class) and not (negative class). With three cluster, the purpose was to see if the approach can allow discovering incidental findings and errors.
+This study tests several embedding and clustering methods for classifying free-text reports on magnetic resonance imaging (MRI) scans of the brain of patients examined for vestibular schwannomas in unsupervised manner. With two clusters, the purpose was to see the persformance of the tested methods when classying the reports into those mentioning a tumour (positive class) and not (negative class). With three clusters, the purpose was to see if the approach can allow discovering incidental findings and errors.
 
-The discription and results of the study are summarised in the MRIreports_NLP.pdf
+The discription and results of the study are summarised in the [MRIreports_NLP.pdf](../MRIreports_NLP/MRIreports_NLP.pdf)
 
 
 ## Getting started
@@ -9,7 +9,7 @@ The discription and results of the study are summarised in the MRIreports_NLP.pd
 - The project was developed on Colab.
 - The dataset is not included (awaits ethical aproval). The project can be testes on a scv file containing ID and text of documents. 
 - Requires downloading BioSentVec_PubMed_MIMICIII-bigram_d700.bin, bioword2vec_model.file and BioWordVec_PubMed_MIMICIII_d200.vec.bin and saving then to the /files directory. These files are used by vec_embeddings.py.
-- Links: https://github.com/ncbi-nlp/BioWordVec, https://github.com/ncbi-nlp/BioSentVec
+- Links: <https://github.com/ncbi-nlp/BioWordVec>, <https://github.com/ncbi-nlp/BioSentVec>
 
 ## Pre-requisites
 
