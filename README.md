@@ -7,7 +7,7 @@ The methodology and results of the study are summarised in the [MRIreports_NLP.p
 ## Getting started
 
 - The project was developed on Colab.
-- The dataset is not included (awaits ethical aproval). The project can be testes on a scv file containing ID and text of documents. 
+- The dataset is not included (awaits ethical aproval). The code can be tested on a scv file containing ID and text of documents. 
 - Requires downloading BioSentVec_PubMed_MIMICIII-bigram_d700.bin, bioword2vec_model.file and BioWordVec_PubMed_MIMICIII_d200.vec.bin and saving then to the /files directory. These files are used by vec_embeddings.py.
 - Links: <https://github.com/ncbi-nlp/BioWordVec>, <https://github.com/ncbi-nlp/BioSentVec>
 
