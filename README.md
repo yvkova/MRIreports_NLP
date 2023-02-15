@@ -17,14 +17,14 @@ Primary classes:
 
 - main.py : the main script launching the experiments; change the parameters based on the scenario required to run.
 - preprocess.py: performs preprocessing and cleaning of the original dataset.
-- usl_model.py: contains the model creation code, i.e. creates and runs clustering models.
 - vec_embeddings.py: contains all the vector embeddings used in the experiments.
+- usl_model.py: contains the model creation code, i.e. creates and runs clustering models.
 - evaluation_metrics.py: calculates the metrics scores from the model performance.
 
 Helper classes:
 
-- data_augmentation.py: contains the code to perform data augmentation on the original dataset.
-- pca.py: utility class for dimensionality reduction (pca).
+- data_augmentation.py: performs data augmentation on the original dataset.
+- pca.py: utility class for dimensionality reduction (PCA).
 - utils.py: helper functions such as read().
 - autoencoder.py: utility class for autoencoder logic.
 - eda.py: contains the code essential for the EDA conducted in the study.
