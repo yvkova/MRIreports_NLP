@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 import seaborn as sns
 
-DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MSc Project/'
+DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MRI Project/'
 
 def frequency_with_word(term, top_n, token_lists):
   frequency = {}
