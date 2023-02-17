@@ -48,7 +48,7 @@ def experiment_3_with_aug():
 
 if __name__ == '__main__':
 
-    DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MSc Project/'
+    DRIVE_LOCATION = '/content/gdrive/MyDrive/Colab Notebooks/MRI Project/'
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--k', default=2)
